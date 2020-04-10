@@ -1,0 +1,25 @@
+User & Server
+
+1. User -> Server
+   * login/logoff
+   *status
+
+2. Server -> User
+   * online/offline
+
+3. User -> User
+   *direct message
+   *group message / broadcast
+
+
+Commands : 
+  login <userID> <password>
+  logoff
+  
+  msg <user> body...
+
+  #topic <-- chatroom/group chat
+  join #topic
+  leave #topic
+  send:msg #topic body..
+  recv:msg #topic-sender body..
